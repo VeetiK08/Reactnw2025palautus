@@ -2,6 +2,8 @@ import React,{useState} from 'react'
 import './App.css'
 import Laskuri from './Laskuri'
 import Viesti from './Viesti'
+import Posts from './Posts'
+import CustomerList from './CustomerList'
 
 const App = () => {
 
@@ -27,16 +29,20 @@ const huomio = () => {
     <div className="App">
       <h1>Hello from React!</h1>
 
-      {showLaskuri && <Laskuri huomio={huomio} />}
+      <CustomerList/>
+      
+      {/* <Posts />
 
-      {showLaskuri === true? <Laskuri huomio={huomio}/> : null}
+      {showLaskuri && <Laskuri huomio={huomio} />} */}
 
-      {showLaskuri && <button onClick={() => setShowLaskuri(!showLaskuri)}>Piilota laskuri</button>}
+      {/*{showLaskuri === true? <Laskuri huomio={huomio}/> : null} */}
+
+     {/* {showLaskuri && <button onClick={() => setShowLaskuri(!showLaskuri)}>Piilota laskuri</button>}
       
       {!showLaskuri && <button onClick={() => setShowLaskuri(!showLaskuri)}>Näytä laskuri</button>}
       
       <Laskuri />
-      <Viesti teksti="tervehdys app komponentista" />
+      <Viesti teksti="tervehdys app komponentista" /> */}
 
     </div>
   )

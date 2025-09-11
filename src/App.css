@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.customerDetails{
+  background-color: chocolate;
+  border-style: solid;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 30px;
+}
+
+.posts {
+  background-color: aqua;
+  max-width: 70%;
+  border-radius: 20px;
+  border-width: 1px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

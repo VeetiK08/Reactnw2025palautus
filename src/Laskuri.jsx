@@ -1,7 +1,7 @@
 import './App.css'
 import React,{useState} from 'react'
-
-const viesti = (props) => {
+// Propsi otettu vastaan suoraan nimellä
+const viesti = ({huomio}) => {
     
 const [luku, setLuku] = useState(0)
     return (
