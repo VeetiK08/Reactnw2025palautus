@@ -14,7 +14,7 @@ useEffect(() => {
 )
 
     return (
-        <>
+        <div class="formWrapper">
             <h2 onClick={() => setShowPosts(!showPosts)}>Posts from typicode</h2> 
 
             {
@@ -30,7 +30,7 @@ useEffect(() => {
                 )
             }
             
-        </>
+        </div>
     )
 }
 export default Posts

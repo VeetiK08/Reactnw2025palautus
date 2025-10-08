@@ -2,20 +2,213 @@
   text-align: center;
 }
 
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 4px;                 
+  margin-bottom: 12px; */
+}
+
+.labelEdit {
+  font-weight: bold;
+  background-color: chocolate;
+  color: white;
+  text-align: center;   
+  width: 210px;         
+  height: 24px;
+  line-height: 24px;    
+  border-radius: 4px;  
+  border-color: black;
+}
+
+.inputEdit {
+  width: 210px;
+  height: 24px;
+  margin-bottom: 2px;
+}
+
+.labelEditEmployee {
+  font-weight: bold;
+  background-color: salmon;
+  color: white;
+  text-align: center;   
+  width: 210px;         
+  height: 24px;
+  line-height: 24px;    
+  border-radius: 4px;  
+  border-color: black;
+}
+
+.inputEditEmployee {
+  width: 210px;
+  height: 24px;
+  margin-bottom: 2px;
+}
+
+.labelEditProduct {
+  font-weight: bold;
+  background-color: cyan;
+  color: black;
+  text-align: center;   
+  width: 210px;         
+  height: 24px;
+  line-height: 24px;    
+  border-radius: 4px;  
+  border-color: black;
+}
+
+.inputEditProduct {
+  width: 210px;
+  height: 24px;
+  margin-bottom: 2px;
+}
+
+.neg {
+  color: red;
+  background: lightgrey;
+  font-size: 36px;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.pos {
+  color: green;
+  background: lightgrey;
+  font-size: 36px;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10%;
+  width: 70%;
+  margin-left: 15%;
+}
+
 .customerDetails{
   background-color: chocolate;
   border-style: solid;
-  width: 85%;
+  width: 40%;
   margin: auto;
   margin-bottom: 50px;
   border-radius: 30px;
+  padding-left: 10%;
 }
 
+.customerDiv > .customerDetails > .detailbButtonsAndName {
+  margin-right: 35%;
+}
+
+.productDetails{
+  background-color: cyan;
+  border-style: solid;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  padding-left: 1%;
+}
+.productDiv > .productDetails > .detailbButtonsAndNameProduct {
+  margin-right: 35%;
+}
+
+.employeeDetails{
+  background-color: salmon;
+  border-style: solid;
+  width: 56%;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.employeeDiv > .employeeDetails > .detailbButtonsAndName {
+  margin-right: 35%;
+}
+.userTable {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+.userListHeader {
+  background-color: #282c34;
+  color: white;
+  font-weight: bold;
+}
+
+.userListTable > tr:nth-child(even) {
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+.userListTable > tr:nth-child(odd) {
+  background-color: gray;
+  font-weight: bold;
+}
+
+
+
+
+
+/* .productDetails{
+  background-color: cyan;
+  border-style: solid;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  padding-left: 10%;
+} */
+
 .posts {
-  background-color: aqua;
-  max-width: 70%;
-  border-radius: 20px;
+  background-color: aquamarine;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 30px;
   border-width: 1px;
+}
+
+.nappi {
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 26px;
+  background-color: chocolate;
+  color: white;
+}
+
+.nappiUser {
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 26px;
+  background-color: #282c34;
+  color: white;
+}
+
+
+.nappiProducts {
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 26px;
+  background-color: cyan;
+  color: black;
+}
+
+.nappiEmployee {
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 26px;
+  background-color: salmon;
+  color: white;
 }
 
 .App-logo {
