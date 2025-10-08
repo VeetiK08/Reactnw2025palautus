@@ -1,6 +1,7 @@
 import axios from "axios"
+import API_BASE from "../utils/apiBase";
 
-const baseUrl = "https://nwobackendveeti-and5fdh8d3hxhcan.canadacentral-01.azurewebsites.net/api/employees"
+const baseUrl = `${API_BASE}/employees`
 
 let token = null
 const setToken = newToken => {

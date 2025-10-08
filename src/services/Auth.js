@@ -1,6 +1,7 @@
 import axios from 'axios'
+import API_BASE from "../utils/apiBase";
 
-const url = "https://nwobackendveeti-and5fdh8d3hxhcan.canadacentral-01.azurewebsites.net/api/authentication"
+const url = `${API_BASE}/authentication`
 
 const authenticate = (userForAuth) => {
     const request = axios.post(url, userForAuth)

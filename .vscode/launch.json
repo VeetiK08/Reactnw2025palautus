@@ -5,17 +5,9 @@
     "version": "0.2.0",
     "configurations": [
         {
-            // Open your local React dev server (run `npm start` first, or add a preLaunchTask)
-            "type": "pwa-msedge",
+            "type": "msedge",
             "request": "launch",
-            "name": "Frontend: Local (http://localhost:3000)",
-            "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}/src"
-        },
-        {
-            "type": "pwa-msedge",
-            "request": "launch",
-            "name": "Frontend: Azure site",
+            "name": "Launch Edge against localhost",
             "url": "https://nwobackendveeti-and5fdh8d3hxhcan.canadacentral-01.azurewebsites.net",
             "webRoot": "${workspaceFolder}"
         }
